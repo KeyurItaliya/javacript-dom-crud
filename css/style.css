@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#input_total, #total_row{
+    text-align: right;
+    margin: 10px;
+}
+.navbar a{
+    color: white;
+}
+.navbar span, h3{
+    color: white;
+}
+#edit{
+    background-color: rgb(231, 192, 17);
+}
+#delete{
+    background-color: red;
+}
+
+.select{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+.delete_row {
+    margin: 0 20px;
+    padding: 5px;
+    background-color: rgb(196, 37, 37);
+}
+
+.edit_row{
+    padding: 5px;
+    background-color: rgb(226, 199, 44);
+}
+
+.txt{
+    padding: 5px;
+    background-color: rgb(90, 247, 69);
+}
+
+.add_value {
+    position: relative;
+    text-align: center;
+    margin:32px 50px;
+}
+.add_row_color{
+    background-color: blue;
+}
+#table_count td:nth-child(2) {
+    font-weight: bold;
+}
